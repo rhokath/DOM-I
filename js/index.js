@@ -92,7 +92,7 @@ newAtag2.textContent = "Zeus";
 
 const newNavContent = document.querySelector('nav');
 newNavContent.appendChild(newAtag);
-newNavContent.appendChild(newAtag2);
+newNavContent.prepend(newAtag2);
 
 let navChange = document.querySelectorAll('a');
 navChange.forEach(function(currentValue){
